@@ -5,12 +5,12 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "The Trap";
+const description = "The";
+const baseUri = "ipfs://QmTE5U6Lq4ZRwPtJbo9JYXtF1TJJBUtZE5QH8D52LmLc6F";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "TRAP",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
@@ -26,14 +26,22 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "ACCESSORIES" },
+      { name: "BODIES" },
+      { name: "CHAINS" },
+      { name: "CLOTHES" },
+      { name: "EYES" },
+      { name: "HAIR" },
     ],
+    // layersOrder: [
+    //   { name: "Background" },
+    //   { name: "Eyeball" },
+    //   { name: "Eye color" },
+    //   { name: "Iris" },
+    //   { name: "Shine" },
+    //   { name: "Bottom lid" },
+    //   { name: "Top lid" },
+    // ],
   },
 ];
 
